@@ -1,0 +1,116 @@
+@media (max-width: 1300px) {
+
+    #right {
+        display: none !important;
+    }
+
+    .left {
+        width: 100px;
+        padding: 30px 0 0 0;
+    }
+    
+    h1, .left a {
+        font-size: 23px;
+        padding-left: 5px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    #nav div {
+        padding-left: 30px;
+    }
+
+    #more {
+        padding-left: 30px;
+    }
+
+    section {
+        margin: 0;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .left {
+        display: none;
+    }
+
+    section {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    .storys {
+        padding-top: 20px;
+    }
+
+    .post-a, #description, #comments input {
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+
+    #post-icons, .likes {
+        padding-left: 5px;
+    }
+
+    #comments-img {
+        padding-right: 11px;
+    }
+
+    .hide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 55px;
+        background-color: white;
+        border-top: 1px solid rgb(162, 162, 162);
+    }
+
+    #media-nav {
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .media-nav-profil {
+        border-radius: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    article {
+        width: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        margin: 0 5px;
+    }
+
+    section, .storys, article, .post-a, #post-image, #post-img, #comments, #post-icons, .post-comment {
+        max-width: 100%;
+    }
+
+    #close-img {
+        padding-right: 15px;
+    }
+
+    .post-comment {
+        padding-left: 5px;
+    }
+
+}
